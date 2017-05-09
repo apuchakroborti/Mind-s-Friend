@@ -77,8 +77,8 @@ $fullname=$ad_email.$us_email;
 
 
 $servername = "localhost";
-$username = "root";
-$password = "";
+$username = "psyhelp";
+$password = "psyhelp";
 $dbname = "psyhelp";
 
 $time = date('Y-m-d H:i:s');

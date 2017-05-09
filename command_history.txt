@@ -998,3 +998,20 @@
  1997  exit
  1998  rm -rf .git
  1999  history > command_history.txt
+
+git command serial:
+rm -rf .git
+git init
+git config --global user.email "apuchakroborti50@gmail.com"
+
+git config --global user.name "apuchakroborti"
+remote add origin https://github.com/apuchakroborti/Mind-s-Friend
+git remote add origin https://github.com/apuchakroborti/Mind-s-Friend
+git add -all
+git commit -m "Minds friend"
+git add -all
+git add --all
+git commit -m "Minds friend"
+git push origin master
+
+

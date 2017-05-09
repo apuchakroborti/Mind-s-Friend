@@ -56,8 +56,8 @@ $fullname=$ad_email.$us_email;
 
 
 $host = "localhost";
-$user = "root";
-$pass = "";
+$user = "psyhelp";
+$pass = "psyhelp";
 $db_name = "psyhelp";
 $con = new mysqli($host, $user, $pass, $db_name);
 
