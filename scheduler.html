@@ -1,0 +1,322 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mind's Friend</title>
+
+
+    <!-- daypilot libraries -->
+    <script src="js/daypilot-all.min.js?v=2848" type="text/javascript"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/responsive-slider.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link href="css/style.css" rel="stylesheet">
+
+</head>
+<body>
+<header>
+    <div class="container">
+        <div class="row">
+            <nav class="navbar navbar-default" role="navigation">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <div class="navbar-brand">
+                            <img src="img/univ.png" class="img-responsive" width="45" height="45" align="left">
+                            <a href="index.html"><h1>  Mind's Friend</h1></a>
+
+                        </div>
+                    </div>
+                    <div class="menu">
+                        <ul class="nav nav-tabs" role="tablist">
+                            <li role="presentation"><a href="msg/chat_box.html">Reply Message</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+</header>
+
+<div class="container">
+
+    <h2>Scheduler</h2><br><br>
+
+    <!-- important -->
+    <div style="float:left; width: 150px;">
+        <div id="nav"></div>
+    </div>
+
+    <div style="margin-left: 150px;">
+        <div id="dp"></div>
+    </div>
+
+    <!-- important -->
+
+    <script type="text/javascript">
+        var nav = new DayPilot.Navigator("nav");
+
+        nav.showMonths = 3;
+        nav.skipMonths = 3;
+        nav.selectMode = "week";
+        nav.freeHandSelectionEnabled = true;
+        nav.onTimeRangeSelected = function(args) {
+            console.log(args);
+            dp.startDate = args.start;
+            dp.update();
+        };
+        nav.onBeforeCellRender = function(args) {
+            if (args.cell.isCurrentMonth) {
+                args.cell.cssClass = "current-month";
+            }
+        };
+        nav.init();
+
+        var dp = new DayPilot.Calendar("dp");
+        load_Schedule();
+
+        // view
+        dp.startDate = nav.selectionStart;
+        dp.viewType = "Week";
+        dp.allDayEventHeight = 25;
+        dp.initScrollPos = 9 * 40;
+        dp.moveBy = 'Full';
+        dp.businessBeginsHour = 8;
+        dp.businessEndsHour = 21;
+        dp.headerDateFormat = "d MMMM, yyyy";
+        dp.init();
+
+
+        // bubble, with async loading
+        /*dp.bubble = new DayPilot.Bubble({
+         onLoad: function(args) {
+         var ev = args.source;
+         args.async = true;  // notify manually using .loaded()
+
+         // simulating slow server-side load
+         setTimeout(function() {
+         args.html = "testing bubble for: <br>" + ev.text();
+         args.loaded();
+         }, 500);
+         }
+         });*/
+
+        /*dp.contextMenu = new DayPilot.Menu({
+         items: [
+         {text:"Show event ID", onclick: function() {alert("Event value: " + this.source.value());} },
+         {text:"Show event text", onclick: function() {alert("Event text: " + this.source.text());} },
+         {text:"Show event start", onclick: function() {alert("Event start: " + this.source.start().toStringSortable());} },
+         {text:"Delete", onclick: function() { dp.events.remove(this.source); } }
+         ]});*/
+
+        // event moving
+        /*dp.onEventMoved = function (args) {
+         dp.message("Moved: " + args.e.text());
+         };*/
+
+        // event resizing
+        /*dp.onEventResized = function (args) {
+         dp.message("Resized: " + args.e.text());
+         };*/
+
+        // event creating
+        dp.onTimeRangeSelected = function (args) {
+
+            var e = new DayPilot.Event({
+                start: args.start,
+                end: args.end,
+                barColor: "#008000",
+                text: "available"
+            });
+            dp.events.add(e);
+            dp.clearSelection();
+            dp.message("Slot Created");
+
+            saveSchedule(args.start,args.end);
+        };
+
+
+        function saveSchedule(Start, End)
+        {
+            var xhttp = new XMLHttpRequest();
+            var value = Start+" "+End;
+            xhttp.open("GET","schedule.php?value="+value,true);
+            xhttp.send();
+        }
+
+        function load_Schedule()
+        {
+            var file = "get_schedule.php";
+            var rawFile = new XMLHttpRequest();
+            rawFile.open("GET", file, false);
+            rawFile.onreadystatechange = function ()
+            {
+                if(rawFile.readyState === 4)
+                {
+                    if(rawFile.status === 200 || rawFile.status == 0)
+                    {
+                        var text = rawFile.responseText;
+
+                        text = text.split("\n");
+
+
+                        for(var i=0;i<text.length-1;i++)
+                        {
+
+                            text[i] = text[i].split(" ");
+                            var color = "red";
+                            if( text[i][2].localeCompare("available") == 0 )
+                            {
+                                color= "green";
+                            }
+
+
+                            var e = new DayPilot.Event({
+                                start: text[i][0],
+                                end: text[i][1],
+                                barColor: color,
+                                text: text[i][2]
+                            });
+                            dp.events.add(e);
+                        }
+
+
+                    }
+                }
+            }
+            rawFile.send(null);
+        }
+
+
+        /*dp.onTimeRangeDoubleClicked = function(args) {
+         alert("DoubleClick: start: " + args.start + " end: " + args.end + " resource: " + args.resource);
+         };*/
+
+        dp.onEventClick = function(args)
+        {
+            if(args.e.data.text=='available') return;
+
+            var value =  args.e.data.start+" "+args.e.data.end;
+
+            var rawFile = new XMLHttpRequest();
+            rawFile.open("GET","get_client_data.php?value="+value,true);
+            rawFile.onreadystatechange = function ()
+            {
+                if(rawFile.readyState === 4)
+                {
+                    if(rawFile.status === 200 || rawFile.status == 0)
+                    {
+                        var text = rawFile.responseText;
+                        text = text.split(" ");
+
+                        document.getElementById("name").innerHTML = "Name: "+text[0];
+                        document.getElementById("email").innerHTML = "Email: "+text[1];
+                        document.getElementById("number").innerHTML = "Number: "+text[2];
+                        $('#myModal').modal('show');
+
+                    }
+                }
+            }
+            rawFile.send(null);
+
+
+
+
+        };
+
+
+        /*var e = new DayPilot.Event({
+         start: new DayPilot.Date("2013-03-25T12:00:00"),
+         end: new DayPilot.Date("2013-03-25T12:00:00").addHours(3),
+         id: DayPilot.guid(),
+         text: "Special event"
+         });
+         dp.events.add(e);*/
+
+    </script>
+
+    <!-- Modal -->
+    <div id="myModal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 id="name"></h4>
+                    <h4 id="email"></h4>
+                    <h4 id="number"></h4>
+                </div>
+
+
+            </div>
+
+        </div>
+    </div>
+
+</div >
+
+
+<hr>
+<!--start footer-->
+<footer>
+
+
+
+    <div class="sub-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <ul class="social-network">
+                        <li><a href="http://goo.gl/NjPIkI" data-placement="top" title="Facebook"><i class="fa fa-facebook fa-1x"></i></a></li>
+                        <li><a href="#" data-placement="top" title="Twitter"><i class="fa fa-twitter fa-1x"></i></a></li>
+                        <li><a href="#" data-placement="top" title="Linkedin"><i class="fa fa-linkedin fa-1x"></i></a></li>
+                        <li><a href="#" data-placement="top" title="Pinterest"><i class="fa fa-pinterest fa-1x"></i></a></li>
+                        <li><a href="#" data-placement="top" title="Google plus"><i class="fa fa-google-plus fa-1x"></i></a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-12">
+
+                    <div class="copyright">
+
+                        <div class="credits">
+                            <h3>Developed By</h3>
+                            <h4>
+
+                                Swasti Sunder Das<br>
+                                Apu Kumar Chakroborty<br>
+
+                                Department of Computer Science & Engineering<br>
+                                University of Dhaka<br>
+                            </h4>
+
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</footer>
+<!--end footer-->
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="js/jquery-2.1.1.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.min.js"></script>
+<script src="js/responsive-slider.js"></script>
+<script src="js/wow.min.js"></script>
+<script type="text/javascript" src="js/fliplightbox.min.js"></script>
+<script type="text/javascript">$('body').flipLightBox()</script>
+<script>wow = new WOW({}).init();</script>
+
+</body>
+</html>

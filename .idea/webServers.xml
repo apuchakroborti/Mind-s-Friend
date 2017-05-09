@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="430c64fd-aee1-43c0-a8ff-fbaa2afcd0aa" name="XAMPP" url="http://localhost/Psychological_Website">
+        <fileTransfer port="0" mountedRoot="D:\xampp\htdocs\Psychological_Website" accessType="MOUNT" />
+      </webServer>
+    </option>
+  </component>
+</project>

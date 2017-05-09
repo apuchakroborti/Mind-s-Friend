@@ -1,0 +1,101 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+body
+{
+    background: silver;
+	
+}
+#container
+{
+    align-content: center;
+    width: 50%;
+    background: white;
+    margin: 10;
+    padding: 40px;
+    height: 50%;
+ 
+}
+#body
+{
+    margin: 20px;
+    border: outset;
+    width: 400px;
+}
+#receiver
+{
+    background-color: aliceblue;
+
+}
+#chatContainer
+{
+    background-color: cornflowerblue;
+    width: 400px;
+    height: 400px;
+	/*overflow: scroll;*/
+    
+
+}
+#send_btn
+{
+    background-color: cornflowerblue;
+    position: absolute;
+    width: 10%;
+}
+#all_message
+{
+    align-content: center;
+    width: 400px;
+    height: 350px;
+	overflow-y: scroll;
+    position: fixed;
+    
+
+}
+#send
+{
+    position: static;
+
+}
+#msg
+{
+    width: 67%;
+
+}
+#chat_data
+{
+    width: 100%;
+    padding: 0px;
+    margin-bottom: 5px;
+    border-bottom: 1px solid silver;
+    font-weight: bold;
+ 
+
+}
+input[type="text"]
+{
+    width: 20%;
+    height: 40px;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+input[type="submit"]
+{
+    width: 80%;
+    height: 40px;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+textarea
+{
+    width: 80%;
+    height: 40px;
+    border: 1px solid grey;
+    border-radius: 5px;
+
+ 
+
+}
+

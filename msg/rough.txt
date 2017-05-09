@@ -1,0 +1,118 @@
+
+
+<!--?php
+/**
+ * Created by PhpStorm.
+ * User: apu
+ * Date: 4/18/17
+ * Time: 2:36 AM
+ */
+
+    $host = "localhost";
+    $user = "root";
+    $pass = "";
+    $db_name = "chat";
+    $con = new mysqli($host, $user, $pass, $db_name);
+
+    $query = "SELECT * FROM user_info_new ORDER BY id DESC";
+    $run = $con->query($query);
+	echo "<form action="."#". "method="."post".">";
+	echo "<select name="."Color[]". "multiple>"; 
+   while($row = $run->fetch_array())
+    {
+	echo $row['fullname'];
+	echo '<option'."value=". $row['fullname'].">".$row['fullname'].'</option>';
+    }
+	echo "</select>";
+	echo "</form>";
+
+?-->
+<!--
+<form action="#" method="post">
+<select name="Color[]" multiple> // Initializing Name With An Array
+<option value="Red">Red</option>
+<option value="Green">Green</option>
+<option value="Blue">Blue</option>
+<option value="Pink">Pink</option>
+<option value="Yellow">Yellow</option>
+</select>
+<input type="submit" name="submit" value="Get Selected Values" />
+</form>
+
+-->
+
+<!--?php
+/**
+ * Created by PhpStorm.
+ * User: apu
+ * Date: 4/18/17
+ * Time: 2:36 AM
+ */
+
+    $host = "localhost";
+    $user = "root";
+    $pass = "";
+    $db_name = "chat";
+    $con = new mysqli($host, $user, $pass, $db_name);
+
+    $query = "SELECT * FROM user_info_new ORDER BY id ASC";
+    $run = $con->query($query);
+	 //var $array[100][100];
+	$array = array(array());
+	//settype($array,'string');
+	$index=0;
+    while($row = $run->fetch_array())
+    {
+        //echo '<p>' . $row['fullname'] . '</p>';
+        $array[$index][0]=$row['fullname'].$row['id'];
+        //echo '<p>'."test".$array[$index][0]."=>".$row['fullname'].'</p>';
+        $index=$index+1;
+    }
+	$i=0;
+    //echo '<form action="">';
+    echo '<select id="user_list">';
+	for($i=0;$i<$index;$i=$i+1)
+	{
+	    $name=$array[$i][0];
+		echo '<option value="$name">'.'<button value="$array[$i][0]" onclick="">'.'<p>'.$array[$i][0].'</p>'.'</button>'.'</option>>'.'<br>';
+
+	}
+    echo '</select>';
+	//echo '<input type="submit" name="Submit">';
+    //echo '</form>';
+?-->
+
+
+
+<!--?php
+ $connect = mysqli_connect("loaclhost","root","","chat");
+ $sql = "SELECT * FROM 'user_info_new' ORDER BY id DESC ";
+ $res = mysqli_query($connect,$sql);
+ if(mysqli_num_rows($res)>0) {
+     while ($row = mysqli_fetch_array($res)) {
+         echo '<p>' . $row['fulname'] . '</p>';
+     }
+ }
+
+
+?-->
+
+
+<!--?php
+/**
+ * Created by PhpStorm.
+ * User: apu
+ * Date: 5/6/17
+ * Time: 12:07 AM
+ */
+
+$link=mysqli_connect("localhost","root","");
+mysqli_select_db($link,"chat");
+$res=mysqli_query($link,"SELECT * FROM 'user_info_new'");
+while($row=mysqli_fetch_row($res))
+{
+    echo $row["fullname"]." ".$row["email"];
+    echo "<br>";
+}
+
+?-->

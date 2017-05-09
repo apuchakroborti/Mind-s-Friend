@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Conversation</title>
+    <link rel="stylesheet" href="style.css"  />
+
+    <!--script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript">
+        function insert()
+        {
+            //document.write("apuuuuuuuuuuuuuu");
+            var text=document.getElementsById("msg");
+            document.write(text);
+
+            //var urlString ="q="+ques+"&ans="+ans+"&a="+inp[0].value+"&b="+inp[2].value+"&c="+inp[4].value+"&d="+inp[6].value+"&cor="+checked+"&def="+input+"&q_n="+q_name+"&c_id="+c_id;
+            var msg="message1="+text;
+            $.ajax
+            ({
+                url: "message_insert.php",
+                type : "POST",
+                cache : false,
+                data : msg,
+                success: function(response)
+                {
+                    alert(response);
+                }
+            });
+
+
+        }
+
+    </script-->
+
+    <script type="text/javascript">
+
+        function insert() {
+            a=document.getElementsByName("message")[0].value;
+            b=document.getElementsByName("user_name")[0].value;
+            destination="message_insert.php?message="+a+"&user_name="+b;
+            //destination=destination."user_name="+b;
+            var xhr=new XMLHttpRequest();
+            xhr.open("GET",destination,true);
+            xhr.send();
+            xhr.onreadystatechange=function() {
+                if(xhr.readyState==4 && xhr.status==200) {
+                    document.getElementById("subject").innerHTML=xhr.responseText;
+                }
+            }
+        }
+    </script>
+
+</head>
+
+<body id="body">
+<div class="messages">
+    <div id="chatContainer">
+
+        <!--div id="receiver" class="rounded">Receiver: <!--?php session_start(); echo $_SESSION['selected']; ?--> <!--/div-->
+        <div id="all_message"></div>
+    </div>
+    <!--form  action="message_insert.php" method="post"-->
+
+    <input name="user_name" placeholder="User Name" type="text">
+    <form id="send">
+
+        <input id="msg" name="message" placeholder="Message" type="text">
+        <input type="submit" id="send_btn"  value="send" onclick="insert() ">
+
+    </form>
+</div>
+
+<script type="text/javascript">
+    function dis_msg() {
+        xmlhttp=new XMLHttpRequest();
+        xmlhttp.open("GET","message_fetch.php",false);
+        xmlhttp.send(null);
+        document.getElementById("all_message").innerHTML=xmlhttp.responseText;
+    }
+    dis_msg();
+    //select("Chat User");
+    setInterval(function () {
+        dis_msg();
+
+    },2000);
+
+
+</script>
+
+</body>
+</html>
+
+

@@ -1,0 +1,1000 @@
+ 1000  sudo systemctl stop apache2.service
+ 1001  sudo /opt/lampp/lampp start
+ 1002  sudo systemctl stop apache2.service
+ 1003  clear
+ 1004  exit
+ 1005  ./make
+ 1006  ./a.out
+ 1007  ./make
+ 1008  ./a.out
+ 1009  ./make
+ 1010  ./a.out
+ 1011  ls
+ 1012  cd ass_3_v_3/
+ 1013  ls
+ 1014  ./make
+ 1015  ./a.out
+ 1016  exit
+ 1017  ./make
+ 1018  ./a.out
+ 1019  ./make
+ 1020  ./a.out
+ 1021  ./make
+ 1022  ./a.out
+ 1023  exit
+ 1024  ./make
+ 1025  ./a.out
+ 1026  ./make
+ 1027  ./a.out
+ 1028  ./make
+ 1029  ./a.out
+ 1030  ./make
+ 1031  ./a.out
+ 1032  ./make
+ 1033  ./a.out
+ 1034  ./make
+ 1035  ./a.out
+ 1036  ./make
+ 1037  ./a.out
+ 1038  ./make
+ 1039  ./a.out
+ 1040  ./make
+ 1041  ./a.out
+ 1042  ./make
+ 1043  ./a.out
+ 1044  ./make
+ 1045  ./a.out
+ 1046  ./make
+ 1047  ./a.out
+ 1048  ./make
+ 1049  ./a.out
+ 1050  ./make
+ 1051  ./a.out
+ 1052  ./make
+ 1053  ./a.out
+ 1054  ./make
+ 1055  ./a.out
+ 1056  ./make
+ 1057  ./a.out
+ 1058  /a.out
+ 1059  ./make
+ 1060  /a.out
+ 1061  ./make
+ 1062  /a.out
+ 1063  exit
+ 1064  ./make
+ 1065  ./a.out
+ 1066  ./make
+ 1067  ./a.out
+ 1068  ./make
+ 1069  ./a.out
+ 1070  ./make
+ 1071  ./a.out
+ 1072  ./make
+ 1073  ./a.out
+ 1074  ./make
+ 1075  ./a.out
+ 1076  exit
+ 1077  chmod 777 make
+ 1078  ./make
+ 1079  ./a.out
+ 1080  ./make
+ 1081  ./a.out
+ 1082  ./make
+ 1083  ./a.out
+ 1084  ./make
+ 1085  ./a.out
+ 1086  ./make
+ 1087  ./a.out
+ 1088  ./make
+ 1089  ./a.out
+ 1090  ./make
+ 1091  ./a.out
+ 1092  exit
+ 1093  ./make
+ 1094  ./a.out
+ 1095  ./make
+ 1096  ./a.out
+ 1097  ./make
+ 1098  ./a.out
+ 1099  ./make
+ 1100  ./a.out
+ 1101  ./make
+ 1102  ./a.out
+ 1103  ./make
+ 1104  ./a.out
+ 1105  ./make
+ 1106  ./a.out
+ 1107  ./make
+ 1108  ./a.out
+ 1109  ./make
+ 1110  ./a.out
+ 1111  ./make
+ 1112  ./a.out
+ 1113  ./make
+ 1114  ./a.out
+ 1115  ./make
+ 1116  ./a.out
+ 1117  ./make
+ 1118  ./a.out
+ 1119  ./make
+ 1120  ./a.out
+ 1121  ./make
+ 1122  ./a.out
+ 1123  ./make
+ 1124  ./a.out
+ 1125  ./make
+ 1126  ./a.out
+ 1127  ./make
+ 1128  ./a.out
+ 1129  ./make
+ 1130  ./a.out
+ 1131  ./make
+ 1132  ./a.out
+ 1133  ./make
+ 1134  ./a.out
+ 1135  ./make
+ 1136  ./a.out
+ 1137  ./make
+ 1138  ./a.out
+ 1139  ./make
+ 1140  ./a.out
+ 1141  ./make
+ 1142  ./a.out
+ 1143  ./make
+ 1144  ./a.out
+ 1145  ./make
+ 1146  ./a.out
+ 1147  ./make
+ 1148  ./a.out
+ 1149  ./make
+ 1150  ./a.out
+ 1151  ./make
+ 1152  ./a.out
+ 1153  ./make
+ 1154  ./a.out
+ 1155  ./make
+ 1156  ./a.out
+ 1157  ./make
+ 1158  ./a.out
+ 1159  ./make
+ 1160  ./a.out
+ 1161  ./make
+ 1162  ./a.out
+ 1163  ./make
+ 1164  ./a.out
+ 1165  ./make
+ 1166  ./a.out
+ 1167  ./make
+ 1168  ./a.out
+ 1169  ./make
+ 1170  ./a.out
+ 1171  ./make
+ 1172  ./a.out
+ 1173  exit
+ 1174  yacc -d ass4_apu.y
+ 1175  flex ass4_apu.l
+ 1176  gcc lex.yy.c y.tab.c -lfl -o ass4
+ 1177  yacc -d ass4_apu.y
+ 1178  flex ass4_apu.l
+ 1179  gcc lex.yy.c y.tab.c -lfl -o ass4
+ 1180  yacc -d ass4_apu.y
+ 1181  flex ass4_apu.l
+ 1182  gcc lex.yy.c y.tab.c -lfl -o ass4
+ 1183  yacc -d ass4_apu.y
+ 1184  flex ass4_apu.l
+ 1185  gcc lex.yy.c y.tab.c -lfl -o ass4
+ 1186  ./ass4
+ 1187  exit
+ 1188  chmod 777 mk
+ 1189  ./mk
+ 1190  ./ass4 
+ 1191  ./mk
+ 1192  ./ass4 
+ 1193  ./mk
+ 1194  ./ass4 
+ 1195  ./mk
+ 1196  ./ass4 
+ 1197  ./mk
+ 1198  ./ass4 
+ 1199  ./mk
+ 1200  ./ass4 
+ 1201  ./mk
+ 1202  ./ass4 
+ 1203  ./mk
+ 1204  ./ass4 
+ 1205  ./mk
+ 1206  ./ass4 
+ 1207  ./mk
+ 1208  ./ass4 
+ 1209  ./mk
+ 1210  ./ass4 
+ 1211  ./mk
+ 1212  ./ass4 
+ 1213  ./mk
+ 1214  ./ass4 
+ 1215  ./mk
+ 1216  ./ass4 
+ 1217  ./mk
+ 1218  ./ass4 
+ 1219  ./mk
+ 1220  ./ass4 
+ 1221  ./mk
+ 1222  ./ass4 
+ 1223  ./mk
+ 1224  ./ass4 
+ 1225  ./mk
+ 1226  ./ass4 
+ 1227  ./mk
+ 1228  ./ass4 
+ 1229  ./mk
+ 1230  ./ass4 
+ 1231  ./mk
+ 1232  ./ass4 
+ 1233  ./mk
+ 1234  ./ass4 
+ 1235  ./mk
+ 1236  ./ass4 
+ 1237  ./mk
+ 1238  ./ass4 
+ 1239  ./mk
+ 1240  ./ass4 
+ 1241  ./mk
+ 1242  ./ass4 
+ 1243  ./mk
+ 1244  ./ass4 
+ 1245  ./mk
+ 1246  ./ass4 
+ 1247  ./mk
+ 1248  ./ass4 
+ 1249  ./mk
+ 1250  ./ass4 
+ 1251  ./mk
+ 1252  ./ass4 
+ 1253  ./mk
+ 1254  ./ass4 
+ 1255  ./mk
+ 1256  ./ass4 
+ 1257  ./mk
+ 1258  ./ass4 
+ 1259  ./mk
+ 1260  ./ass4 
+ 1261  ./mk
+ 1262  ./ass4 
+ 1263  ./mk
+ 1264  ./ass4 
+ 1265  ./mk
+ 1266  ./ass4 
+ 1267  ./mk
+ 1268  ./ass4 
+ 1269  ./mk
+ 1270  ./ass4 
+ 1271  ./mk
+ 1272  ./ass4 
+ 1273  ./mk
+ 1274  ./ass4 
+ 1275  ./mk
+ 1276  ./ass4 
+ 1277  ./mk
+ 1278  ./ass4 
+ 1279  ./mk
+ 1280  ./ass4 
+ 1281  ./ass4
+ 1282  ./mk
+ 1283  ./ass4
+ 1284  ./mk
+ 1285  ./ass4
+ 1286  ./mk
+ 1287  ./ass4
+ 1288  ./mk
+ 1289  ./ass4
+ 1290  ./mk
+ 1291  ./ass4
+ 1292  ./mk
+ 1293  ./ass4
+ 1294  ./mk
+ 1295  ./ass4
+ 1296  ./mk
+ 1297  ./ass4
+ 1298  ./mk
+ 1299  ./ass4
+ 1300  ./mk
+ 1301  ./ass4
+ 1302  ./mk
+ 1303  ./ass4
+ 1304  ./mk
+ 1305  ./ass4
+ 1306  ./mk
+ 1307  ./ass4
+ 1308  ./mk
+ 1309  ./ass4
+ 1310  ./mk
+ 1311  ./ass4
+ 1312  ./mk
+ 1313  ./ass4
+ 1314  ./mk
+ 1315  ./ass4
+ 1316  ./mk
+ 1317  ./ass4
+ 1318  ./mk
+ 1319  ./ass4
+ 1320  ./mk
+ 1321  ./ass4
+ 1322  ./mk
+ 1323  ./ass4
+ 1324  ./mk
+ 1325  ./ass4
+ 1326  ./mk
+ 1327  ./ass4
+ 1328  ./mk
+ 1329  ./ass4
+ 1330  ./mk
+ 1331  ./ass4
+ 1332  ./mk
+ 1333  ./ass4
+ 1334  ./mk
+ 1335  ./ass4
+ 1336  ./mk
+ 1337  ./ass4
+ 1338  ./mk
+ 1339  ./ass4
+ 1340  ./mk
+ 1341  ./ass4
+ 1342  ./mk
+ 1343  ./ass4
+ 1344  ./mk
+ 1345  ./ass4
+ 1346  ./mk
+ 1347  ./ass4
+ 1348  ./mk
+ 1349  ./ass4
+ 1350  exit
+ 1351  ./make
+ 1352  exit
+ 1353  ./make
+ 1354  exit
+ 1355  ./make
+ 1356  exit
+ 1357  ./make
+ 1358  exit
+ 1359  ./mk
+ 1360  exit
+ 1361  ./mk
+ 1362  exit
+ 1363  ./mk
+ 1364  exit
+ 1365  ./make
+ 1366  yacc -d ass.y
+ 1367  flex ass.l
+ 1368  gcc lex.yy.c y.tab.c -ll -lm
+ 1369  ./make
+ 1370  yacc -d ass.y
+ 1371  flex ass.l
+ 1372  gcc lex.yy.c y.tab.c -ll -lm
+ 1373  ./a.out
+ 1374  ./make
+ 1375  history
+ 1376  grep java
+ 1377  history -i "java"
+ 1378  history > apu.txt
+ 1379  java -jar weka.jar
+ 1380  exit
+ 1381  java -jar weka.jar
+ 1382  eexit
+ 1383  exit
+ 1384  sudo mv chat /opt/lampp/htdocs
+ 1385  exit
+ 1386  sudo mv index.php main.html style.css /opt/lampp/htdocs
+ 1387  exit
+ 1388  history
+ 1389  sudo systemctl stop apache2.service
+ 1390  sudo /opt/lampp/lampp start
+ 1391  exit
+ 1392  sudo systemctl stop apache2.service
+ 1393  sudo /opt/lampp/lampp start
+ 1394  sudo systemctl stop apache2.service
+ 1395  exit
+ 1396  sudo systemctl stop apache2.service
+ 1397  sudo /opt/lampp/lampp start
+ 1398  sudo systemctl stop apache2.service
+ 1399  exit
+ 1400  ./make
+ 1401  exit
+ 1402  ./make
+ 1403  cd
+ 1404  sudo apt-get install spim
+ 1405  sudo apt-get -f install spim
+ 1406  exit
+ 1407  gzip -d spim.tar.gz
+ 1408  uncompress spim.tar.Z
+ 1409  tar xf spim.tar
+ 1410  Configure
+ 1411  cd spim-8.0/
+ 1412  ls
+ 1413  cd spim/
+ 1414  ls
+ 1415  Configure
+ 1416  ./Configure
+ 1417  xmkmf
+ 1418  sudo apt install xutils-dev
+ 1419  make
+ 1420  make install
+ 1421  exit
+ 1422  ./make
+ 1423  exit
+ 1424  yacc -d subc.y
+ 1425  flex subc.l
+ 1426  gcc lex.yy.c y.tab.c -o execute
+ 1427  ./execute <input
+ 1428  exit
+ 1429  ./mk
+ 1430  exit
+ 1431  ./execute <input
+ 1432  exit
+ 1433  ./make
+ 1434  exit
+ 1435  ./mk
+ 1436  exit
+ 1437  ./mk
+ 1438  exit
+ 1439  ./mk
+ 1440  clear
+ 1441  cd
+ 1442  history > history.txt
+ 1443  java -jar weka.jar
+ 1444  ./make
+ 1445  chmod 777 make
+ 1446  ./make
+ 1447  exit
+ 1448  ./make
+ 1449  ./make
+ 1450  exit
+ 1451  ./mk
+ 1452  exit
+ 1453  ./mk
+ 1454  exit
+ 1455  ./make
+ 1456  exit
+ 1457  ./mk
+ 1458  ./make
+ 1459  exit
+ 1460  ./make
+ 1461  exit
+ 1462  ./make
+ 1463  gcc -o d3v2 D3ToD2_v2.c -lglut -lGL -lGLU
+ 1464  gcc -o d3v2 D3ToD2_v2.c -lglut -lGL -lGLU -lm
+ 1465  ./d3v2 
+ 1466  exit
+ 1467  ./cube
+ 1468  chmod 777 cube
+ 1469  ./cube
+ 1470  chmod 777 anando
+ 1471  ./anando 
+ 1472  exit
+ 1473  gcc -o prj projection.c -lglut -lGL -lGLU -lm
+ 1474  gcc -o proj proj.cpp -lglut -lGL -lGLU -lm
+ 1475  ./proj
+ 1476  chmod 777 mk_projection 
+ 1477  ./mk_projection 
+ 1478  chmod 777 mk_proj1
+ 1479  ./mk_proj1
+ 1480  chmod 777 mk_proj1
+ 1481  ./mk_proj1
+ 1482  ./mk_projection1 
+ 1483  ./mk_projection
+ 1484  ./mk_proj1
+ 1485  exit
+ 1486  chmod 777 make_cube 
+ 1487  ./make_cube 
+ 1488  ./mk_proj1
+ 1489  exit
+ 1490  ./mk_proj1
+ 1491  chmod 777 rectangle
+ 1492  chmod 777 rectangle_mk 
+ 1493  ./rectangle_mk 
+ 1494  ./mk_proj1
+ 1495  chmod 777 shad_cube 
+ 1496  ./shad_cube 
+ 1497  exit
+ 1498  ./make
+ 1499  exit
+ 1500  ./shad_cube 
+ 1501  exit
+ 1502  chmod 777 shad_cube
+ 1503  ./shad_cube 
+ 1504  exit
+ 1505  ./shad_cube 
+ 1506  chmod 777 mk_t 
+ 1507  ./mk_t
+ 1508  clear
+ 1509  ./mk_t
+ 1510  gcc -o lab11cow lab11cow.c -lglut -lGL -lGLU -lm
+ 1511  gcc -o lab11cow lab11cow.c -lglut -lGL -lGLU
+ 1512  ./mk_t
+ 1513  gcc -o lab11cow lab11cow.c -lglut -lGL -lGLU
+ 1514  ./mk_t
+ 1515  ./mk
+ 1516  spim
+ 1517  sudo apt install spim
+ 1518  spim
+ 1519  sudo apt install spim
+ 1520  sudo apt-get install spim
+ 1521  clear
+ 1522  sudo apt-get install spim
+ 1523  sudo apt-get update 
+ 1524  cd /etc/
+ 1525  ls
+ 1526  cd update-motd.d/
+ 1527  ls
+ 1528  cd ..
+ 1529  ls
+ 1530  cd update-manager/
+ 1531  ls
+ 1532  cd 
+ 1533  sudo apt-get install spim
+ 1534  sudo apt-get update 
+ 1535  sudo apt-get install spim
+ 1536  sudo apt-get -f  install spim
+ 1537  strcpy($$.code,$2.code);//lw dest,src
+ 1538  //strcat($$.code,"lw $t1,$t0\n");
+ 1539  //strcat($$.code,$3.code);
+ 1540  strcat($$.code,"sw $t0,$v0\n");//prob
+ 1541  strcat($$.code,"jr $ra\n");//prob
+ 1542  //strcat($$.code,"seq $t0,$t1,$t2\n");
+ 1543  /*
+ 1544  strcpy($$.code,$2.code);
+ 1545  strcat($$.code,"sw $a0 0($sp) \n");
+ 1546  strcat($$.code,"addiu $sp $sp -4\n");
+ 1547  strcat($$.code,"jr $ra\n");*/
+ 1548  clear
+ 1549  ls
+ 1550  sudo apt-get install spim
+ 1551  sudo apt-get update 
+ 1552  sudo apt-get --fix-missing  install spim
+ 1553  sudo apt-get install mysql-server-5.7 
+ 1554  sudo apt-get update 
+ 1555  sudo apt-get install mysql-server-5.7 
+ 1556  sudo apt-get autoremove 
+ 1557  sudo apt-get autoclean 
+ 1558  sudo apt-get autoremove 
+ 1559  sudo apt-get remove --purge mysql*
+ 1560  sudo apt-get -f remove --purge mysql*
+ 1561  sudo apt-get -f remove --purge mysql-server
+ 1562  clear
+ 1563  sudo apt-get update 
+ 1564  ;
+ 1565  cd /etc/apt
+ 1566  ls
+ 1567  gedit sources.list
+ 1568  ls
+ 1569  cd sources.list.d/
+ 1570  ls
+ 1571  rm *
+ 1572  sudo rm *
+ 1573  ls
+ 1574  cd ..
+ 1575  ls
+ 1576  cp sources.list sources.list.previous
+ 1577  sudo cp sources.list sources.list.previous
+ 1578  ls
+ 1579  rm sources.list
+ 1580  sudo rm sources.list
+ 1581  clea
+ 1582  clear
+ 1583  cd
+ 1584  ls
+ 1585  sudo apt-get update 
+ 1586  clea
+ 1587  clear
+ 1588  sudo apt-get update 
+ 1589  sudo apt-get upgrade 
+ 1590  sudo apt-get update 
+ 1591  sudo apt-cache 
+ 1592  sudo apt-cache policy 
+ 1593  sudo apt-cache policy | grep trust
+ 1594  sudo apt-cache policy | grep xeni
+ 1595  sudo apt-get install ansible/trusty-backports
+ 1596  sudo do-release-upgrade 
+ 1597  sudo gedit /etc/apt/sources.list
+ 1598  sudo apt-get update 
+ 1599  clear
+ 1600  sudo apt-get install spim
+ 1601  clear
+ 1602  spim
+ 1603  clear
+ 1604  spim load output.txt 
+ 1605  ./mk
+ 1606  spim load output.txt 
+ 1607  xit
+ 1608  exit
+ 1609  ./mk
+ 1610  spim load output.txt 
+ 1611  ./mk
+ 1612  spim load output.txt 
+ 1613  ./mk
+ 1614  spim load output.txt 
+ 1615  ./mk
+ 1616  spim load output.txt 
+ 1617  ./mk
+ 1618  spim load output.txt 
+ 1619  ./mk
+ 1620  spim load output.txt 
+ 1621  ./mk
+ 1622  spim load output.txt 
+ 1623  ./mk
+ 1624  spim load output.txt 
+ 1625  ./mk
+ 1626  spim load output.txt 
+ 1627  ./mk
+ 1628  spim load output.txt 
+ 1629  ./mk
+ 1630  spim load output.txt 
+ 1631  ./mk
+ 1632  spim load output.txt 
+ 1633  ./mk
+ 1634  spim load output.txt 
+ 1635  ./mk
+ 1636  spim load output.txt 
+ 1637  ./mk
+ 1638  spim load output.txt 
+ 1639  ./mk
+ 1640  spim load output.txt 
+ 1641  ./mk
+ 1642  spim load output.txt 
+ 1643  ./mk
+ 1644  spim load output.txt 
+ 1645  exit
+ 1646  ./mk
+ 1647  exit
+ 1648  ./mk
+ 1649  yacc -d ass4_apu.y
+ 1650  flex ass4_apu.l
+ 1651  gcc lex.yy.c y.tab.c -lfl -o ass4
+ 1652  yacc -d ass4_apu.y
+ 1653  flex ass4_apu.l
+ 1654  gcc lex.yy.c y.tab.c -lfl -o ass4
+ 1655  yacc -d ass4_apu.y
+ 1656  flex ass4_apu.l
+ 1657  gcc lex.yy.c y.tab.c -lfl -o ass4
+ 1658  ./ass4
+ 1659  exit
+ 1660  spim load output.txt
+ 1661  ./mk
+ 1662  spim load output.txt
+ 1663  ./mk
+ 1664  spim load output.txt 
+ 1665  ./mk
+ 1666  spim load output.txt 
+ 1667  ./mk
+ 1668  spim load output.txt 
+ 1669  ./mk
+ 1670  spim load output.txt 
+ 1671  ./mk
+ 1672  spim load output.txt 
+ 1673  --help spim
+ 1674  spim --help
+ 1675  ./mk
+ 1676  spim read out.s
+ 1677  run
+ 1678  spim run
+ 1679  ./mk
+ 1680  spim read out.s
+ 1681  ./mk
+ 1682  spim read out.s
+ 1683  exit
+ 1684  ./mk
+ 1685  spim read out.s
+ 1686  ./mk
+ 1687  spim read out.s
+ 1688  ./mk
+ 1689  spim read out.s
+ 1690  ./mk
+ 1691  spim read out.s
+ 1692  ./mk
+ 1693  spim read out.s
+ 1694  ./mk
+ 1695  spim read out.s
+ 1696  exit
+ 1697  ./mk
+ 1698  spim read out.s
+ 1699  ./mk
+ 1700  spim read out.s
+ 1701  ./mk
+ 1702  spim read out.s
+ 1703  ./mk
+ 1704  spim read out.s
+ 1705  spim read out1.s
+ 1706  ./mk
+ 1707  spim read out1.s
+ 1708  ./mk
+ 1709  spim read out1.s
+ 1710  ./mk
+ 1711  spim read out1.s
+ 1712  ./mk
+ 1713  spim read out1.s
+ 1714  ./mk
+ 1715  spim read out1.s
+ 1716  exit
+ 1717  ./mk
+ 1718  spim read out1.s
+ 1719  ./mk
+ 1720  spim read out1.s
+ 1721  ./mk
+ 1722  spim read out1.s
+ 1723  ./mk
+ 1724  spim read out1.s
+ 1725  ./mk
+ 1726  spim read out1.s
+ 1727  ./mk
+ 1728  ./mk
+ 1729  spim read out1.s
+ 1730  ./mk
+ 1731  spim read out1.s
+ 1732  spim read s1.s
+ 1733  ./mk
+ 1734  spim read out1.s
+ 1735  ./mk
+ 1736  spim read out1.s
+ 1737  exit
+ 1738  ./mk
+ 1739  spim read out1.s
+ 1740  ./mk
+ 1741  spim read out1.s
+ 1742  ./mk
+ 1743  spim read out1.s
+ 1744  ./mk
+ 1745  spim read out1.s
+ 1746  ./mk
+ 1747  spim read out1.s
+ 1748  ./mk
+ 1749  spim read out1.s
+ 1750  ./mk
+ 1751  spim read out1.s
+ 1752  ./mk
+ 1753  spim read out1.s
+ 1754  ./mk
+ 1755  spim read out1.s
+ 1756  ./mk
+ 1757  spim read out1.s
+ 1758  ./mk
+ 1759  spim read out1.s
+ 1760  ./mk
+ 1761  spim read out1.s
+ 1762  ./mk
+ 1763  spim read out1.s
+ 1764  ./mk
+ 1765  spim read out1.s
+ 1766  exit
+ 1767  ./mk
+ 1768  spim read out1.s
+ 1769  ./mk
+ 1770  spim read out1.s
+ 1771  ./mk
+ 1772  spim read out1.s
+ 1773  ./mk
+ 1774  spim read out1.s
+ 1775  ./mk
+ 1776  spim read out1.s
+ 1777  ./mk
+ 1778  spim read out1.s
+ 1779  ./mk
+ 1780  spim read out1.s
+ 1781  ./mk
+ 1782  spim read out1.s
+ 1783  ./mk
+ 1784  spim read out1.s
+ 1785  ./mk
+ 1786  spim read out1.s
+ 1787  ./mk
+ 1788  spim read out1.s
+ 1789  ./mk
+ 1790  spim read out1.s
+ 1791  ./mk
+ 1792  spim read out1.s
+ 1793  ./mk
+ 1794  spim read out1.s
+ 1795  ./mk
+ 1796  spim read out1.s
+ 1797  ./mk
+ 1798  spim read out1.s
+ 1799  ./mk
+ 1800  spim read out1.s
+ 1801  ./mk
+ 1802  spim read out1.s
+ 1803  ./mk
+ 1804  spim read out1.s
+ 1805  ./mk
+ 1806  spim read out1.s
+ 1807  ./mk
+ 1808  spim read out1.s
+ 1809  ./mk
+ 1810  spim read out1.s
+ 1811  ./mk
+ 1812  spim read out1.s
+ 1813  ./mk
+ 1814  spim read out1.s
+ 1815  ./mk
+ 1816  spim read out1.s
+ 1817  ./mk
+ 1818  spim read out1.s
+ 1819  ./mk
+ 1820  spim read out1.s
+ 1821  ./mk
+ 1822  spim read out1.s
+ 1823  ./mk
+ 1824  spim read out1.s
+ 1825  ./mk
+ 1826  spim read out1.s
+ 1827  ./mk
+ 1828  spim read out1.s
+ 1829  ./mk
+ 1830  spim read out1.s
+ 1831  ./mk
+ 1832  spim read out1.s
+ 1833  exit
+ 1834  sudo apt-get build-dep python3.2
+ 1835  sudo apt-get install libreadline-dev libncurses5-dev libssl1.0.0 tk8.5-dev zlib1g-dev liblzma-dev
+ 1836  sudo apt-get install python-crypto
+ 1837  exit
+ 1838  ./mk
+ 1839  spim load out1.s
+ 1840  exit
+ 1841  sudo systemctl stop apache2.service
+ 1842  sudo /opt/lampp/lampp start
+ 1843  sudo systemctl stop apache2.service
+ 1844  exit
+ 1845  ./mk
+ 1846  ./make
+ 1847  sudo systemctl stop apache2.service
+ 1848  sudo /opt/lampp/lampp start
+ 1849  sudo systemctl stop apache2.service
+ 1850  ./mk
+ 1851  spim load out1.s
+ 1852  ./mk
+ 1853  exit
+ 1854  exit
+ 1855  ./mk
+ 1856  spim load out2.s 
+ 1857  exit
+ 1858  mv c /opt/lampp/htdocs 
+ 1859  sudo mv c /opt/lampp/htdocs 
+ 1860  exit
+ 1861  mv chat /opt/lampp/htdocs 
+ 1862  sudo mv chat /opt/lampp/htdocs 
+ 1863  exit
+ 1864  sudo mv chat1 /opt/lampp/htdocs 
+ 1865  cd
+ 1866  sudo systemctl stop apache2.service
+ 1867  sudo /opt/lampp/lampp start
+ 1868  exit
+ 1869  sudo mkdir apu
+ 1870  cd apu
+ 1871  gedit main.html
+ 1872  sudo mv main.html apu
+ 1873  cd ..
+ 1874  sudo mv main.html apu
+ 1875  cd apu/
+ 1876  ls
+ 1877  sudo mv main.html /opt/lampp/htdocs/
+ 1878  ls
+ 1879  sudo gedit m.html
+ 1880  exit
+ 1881  sudo mv autol /opt/lampp/htdocs/
+ 1882  cd
+ 1883  sudo systemctl stop apache2.service
+ 1884  sudo /opt/lampp/lampp start
+ 1885  sudo systemctl stop apache2.service
+ 1886  sudo /opt/lampp/lampp start
+ 1887  sudo mv fbChatSource /opt/lampp/htdocs/
+ 1888  exit
+ 1889  sudo apt-get install unrar
+ 1890  exit
+ 1891  sudo mv simpchat /opt/lampp/htdocs/
+ 1892  exit
+ 1893  sudo systemctl stop apache2.service
+ 1894  sudo /opt/lampp/lampp start
+ 1895  exit
+ 1896  sudo mv php-facebook-like-Chat-master /opt/lampp/htdocs/
+ 1897  xit
+ 1898  exit
+ 1899  sudo apt-get install git
+ 1900  exit
+ 1901  git config --global user.name "apuchakroborti"
+ 1902  git config --global user.email "apuchakroborti50@gmail.com"
+ 1903  git init PsycoHelp
+ 1904  git add cd PsycoHelp/
+ 1905  cd PsycoHelp/
+ 1906  git remote add origin https://github.com/apuchakroborti/PsycoHelp
+ 1907  git push origin master
+ 1908  cd ..
+ 1909  git push origin master
+ 1910  git remote add origin https://github.com/apuchakroborti/PsycoHelp
+ 1911  git init PsycoHelp
+ 1912  git remote add origin https://github.com/apuchakroborti/PsycoHelp
+ 1913  git push origin master
+ 1914  exit
+ 1915  ls
+ 1916  sudo mv PsycoHelp/ opt/lampp/htdocs
+ 1917  sudo mv PsycoHelp opt/lampp/htdocs
+ 1918  sudo mv PsycoHelp /opt/lampp/htdocs
+ 1919  git init
+ 1920  git remote add origin https://github.com/apuchakroborti/PsycoHelp
+ 1921  git commit -m "PsycoHelp"
+ 1922  git config --global user.name "apuchakroborti"
+ 1923  git config --global user.email "apuchakroborti50@gmail.com"
+ 1924  git add --all
+ 1925  git commit -m "PsycoHelp"
+ 1926  git push origin master
+ 1927  exit
+ 1928  sudo mv fbc /opt/lampp/htdocs/
+ 1929  exit
+ 1930  sudo mv psyco_help /opt/lampp/htdocs/
+ 1931  exit
+ 1932  sudo systemctl stop apache2.service
+ 1933  sudo /opt/lampp/lampp start
+ 1934  exit
+ 1935  cd /opt/lampp/htdocs/psyco_help 
+ 1936  git init
+ 1937  git commit -m "first commit"
+ 1938  git init
+ 1939  git commit -m "first commit"
+ 1940  echo "# psyhelp" >> README.md
+ 1941  git init
+ 1942  git add README.md
+ 1943  git commit -m "first commit"
+ 1944  git remote add origin https://github.com/swasti007/psyhelp.git
+ 1945  git push -u origin master
+ 1946  git add *
+ 1947  git push -u origin master
+ 1948  git add --all
+ 1949  git init
+ 1950  git remote add origin https://github.com/swasti007/psyhelp
+ 1951  git commit -m "initial commit"
+ 1952  git add -all
+ 1953  git push origin master
+ 1954  t
+ 1955  exit
+ 1956  sudo mv schedule /opt/lampp/htdocs/
+ 1957  exit
+ 1958  git push origin master
+ 1959  exit
+ 1960  git init
+ 1961  git remote add origin file:///opt/lampp/htdocs/psyco_help 
+ 1962  ls
+ 1963  git config -global user.email "apuchakroborti50@gmail.com"
+ 1964  git config --global user.email "apuchakroborti50@gmail.com"
+ 1965  git config --global user.name "apuchakroborti"
+ 1966  git commit -m "Minds friend"
+ 1967  git add --all
+ 1968  git push origin master
+ 1969  git commit -m "Minds friend"
+ 1970  git add --all
+ 1971  git push origin master
+ 1972  ls -a
+ 1973  sudo rm .git
+ 1974  rm -f .git
+ 1975  rm -rf .git
+ 1976  git config --global user.email "apuchakroborti50@gmail.com"
+ 1977  clear
+ 1978  git config --global user.name "apuchakroborti"
+ 1979  git commit -m "Minds friend"
+ 1980  git init
+ 1981  git config --global user.email "apuchakroborti50@gmail.com"
+ 1982  git config --global user.name "apuchakroborti"
+ 1983  git commit -m "Minds friend"
+ 1984  git add --all
+ 1985  git commit -m "Minds friend"
+ 1986  git push origin master
+ 1987  git remote add origin https://github.com/apuchakroborti/Mind-s-Friend
+ 1988  git add --all
+ 1989  git commit -m "Minds friend"
+ 1990  git push origin master
+ 1991  exit
+ 1992  git init
+ 1993  git remote add origin https://github.com/apuchakroborti/Mind-s-Friend 
+ 1994  exit
+ 1995  sudo systemctl stop apache2.service
+ 1996  sudo /opt/lampp/lampp start
+ 1997  exit
+ 1998  rm -rf .git
+ 1999  history > command_history.txt
